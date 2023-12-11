@@ -1,0 +1,123 @@
+body {
+  margin: 10px;
+}
+
+nav {
+  border-top: 8px solid black;
+  border-bottom: 1px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+.sitemotto {
+  color: #967bb6;
+  font-family: Pensum, "Times New Roman", serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+
+
+header {
+    color: #967bb6;
+    font-family: Pensum, "Times New Roman", serif;
+    font-size: 20px;
+}
+
+nav {
+  font-family: Pensum, "Times New Roman", serif;
+  font-size: 46px;
+  font-weight: bold;
+  color: lavender;
+}
+
+h1 {
+  font-family: Pensum, "Times New Roman", serif;
+  font-size: 46px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.byline {
+  font-family: Pensum, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 30px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.subhead {
+  font-family: Pensum, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.imageCaption {
+  font-family: Pensum, "Times New Roman", serif;
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: center;
+  color: #767676;
+  margin-bottom: 30x;
+  margin-top: 0x;
+  padding-top: 0x;
+}
+
+.tdpad {
+  padding: 30px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+article {
+  font-family: Pensum, "Times New Roman", serif;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.story_image {
+  width: 50%;
+  padding-bottom: 10x;
+}
+
+.caption {
+  color: gray;
+  font-size: 14px;
+  margin-top: 5px;
+  width: 50%;
+}
+
+footer {
+  margin-top: 30px;
+  font-family: Basier, Arial, sans-serif;
+}
+
+footer > p {
+  font-size: 14px;
+  color: #666;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #717171;
+  text-decoration-color: #ffcb04;
+}
